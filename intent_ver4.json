@@ -1,0 +1,313 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Halo",
+        "Hai",
+        "Selamat pagi",
+        "Selamat siang",
+        "Selamat sore",
+        "Selamat malam"
+      ],
+      "responses": [
+        "Halo!",
+        "Hai!"
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": [
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Dadah",
+        "Goodbye",
+        "bye",
+        "good bye"
+      ],
+      "responses": [
+        "Sampai jumpa lagi!",
+        "Dadah! Semoga harimu menyenangkan!"
+      ]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": [
+        "Terimakasih",
+        "Terima kasih",
+        "Thank you",
+        "Thankyou",
+        "Thanks"
+      ],
+      "responses": [
+        "Terimakasih kembali, senang bisa membantu!",
+        "Dadah! Semoga harimu menyenangkan!"
+      ]
+    },
+    {
+  "tag": "sad",
+  "patterns": [
+    "sad",
+    "sedih",
+    "Saya sedih",
+    "Aku merasa sedih",
+    "Hari ini sangat buruk"
+  ],
+  "responses": [
+    "Saat sedih, aku ada rekomendasi kegiatan yaitu mendengarkan lagu ataupun bepergian, aku ada rekomendasinya! Bilang saja: lagu sedih atau pergi sedih",
+    "Aku ada beberapa lagu yang bisa menemanimu saat sedih. Mau aku rekomendasikan? Bilang saja: lagu sedih.",
+    "Lagu bisa menjadi teman yang baik saat sedih. Ingin rekomendasi lagu? Bilang saja: lagu sedih.",
+    "Saat sedih, mendengarkan musik bisa membantu. Mau aku rekomendasikan lagu? Bilang saja: lagu sedih.",
+    "Aku tahu beberapa tempat yang bisa menenangkan hati. Ingin rekomendasi tempat? Bilang saja: lokasi sedih.",
+    "Mungkin tempat yang tenang bisa membuatmu merasa lebih baik. Mau rekomendasi lokasi? Bilang saja: lokasi sedih."
+  ]
+},
+    {
+  "tag": "happy",
+  "patterns": [
+    "happy",
+    "bahagia",
+    "Saya bahagia",
+    "Hari ini menyenangkan",
+    "Aku merasa senang"
+  ],
+  "responses": [
+    "Saat senang, aku ada rekomendasi kegiatan yaitu mendengarkan lagu ataupun bepergian, aku ada rekomendasinya! Bilang saja: lagu senang atau pergi senang",
+    "Aku punya beberapa lagu yang bisa membuat suasana lebih menyenangkan. Mau rekomendasi lagu? Bilang saja: lagu senang.",
+    "Lagu bisa menambah kebahagiaanmu. Ingin rekomendasi lagu? Bilang saja: lagu senang.",
+    "Bagaimana kalau pergi ke tempat yang menyenangkan? Mau rekomendasi lokasi? Bilang saja: lokasi senang.",
+    "Aku tahu beberapa tempat yang bisa menambah kebahagiaanmu. Ingin rekomendasi tempat? Bilang saja: lokasi senang."
+    ]
+},
+{
+  "tag": "angry",
+  "patterns": [
+    "angry",
+    "marah",
+    "Saya marah",
+    "Aku merasa marah",
+    "Ini membuatku kesal"
+  ],
+  "responses": [
+    "Saat marah, aku ada rekomendasi kegiatan yaitu mendengarkan lagu ataupun bepergian, aku ada rekomendasinya! Bilang saja: lagu marah atau pergi marah",
+    "Aku ada beberapa lagu yang bisa menemanimu saat marah. Mau aku rekomendasikan? Bilang saja: lagu marah.",
+    "Lagu bisa menjadi teman yang baik untuk meredakan emosi marah. Ingin rekomendasi lagu? Bilang saja: lagu marah.",
+    "Saat marah, mendengarkan musik bisa membantu. Mau aku rekomendasikan lagu? Bilang saja: lagu marah.",
+    "Mungkin pergi ke tempat yang bisa menyalurkan energimu bisa membantu. Mau rekomendasi lokasi? Bilang saja: lokasi marah.",
+    "Aku tahu beberapa tempat yang bisa membuatmu merasa lebih baik. Ingin rekomendasi tempat? Bilang saja: lokasi marah."
+  ]
+},
+    {
+      "tag": "music sad",
+      "patterns": [
+        "Rekomendasi lagu untuk mengatasi kesedihan",
+        "Rekomendasi lagu buat merenung",
+        "Rekomendasi lagu untuk patah hati",
+        "Kasih aku lagu buat mengatasi rasa sedih dong",
+        "lagu sedih",
+        "musik sedih",
+        "musik untuk memperbaiki mood sedih",
+        "musik untuk sedih",
+        "lagu untuk patah hati",
+        "Hati aku sakit banget",
+        "lagu untuk sedih"
+
+      ],
+      "responses": [
+        "Coba kamu dengarkan lagu 'Serana - For Revenge'",
+        "Bagaimana dengan 'Pulang - For Revenge'?",
+        "Coba dengarkan 'Blue Sky Collapse - Adhitia Sofyan'",
+        "Coba dengarkan 'Kenangan Manis - Pamungkas'",
+        "Coba dengarkan 'Monolog - Pamungkas'",
+        "Coba dengarkan 'To the bone - Pamungkas'",
+        "Coba dengarkan 'Hati-hati dijalan - Tulus'",
+        "Ini mungkin bisa membantumu: 'Ada Selamanya - For Revenge'",
+        "Dengarkan ini: 'Little bit better - Caleb Hearn ft ROSIE'",
+        "Dengarkan ini: 'August - Taylor Swift'",
+        "Dengarkan ini: 'July - Noah Cyrus'",
+        "Coba kamu dengerin lagu ini deh 'Forget Jakarta - Adhitia Sofyan'",
+        "Coba kamu dengerin lagu ini deh 'Malam Pagi - Saixse'",
+        "Bagaimana dengan 'Nobody get me - SZA'?",
+        "Bagaimana dengan 'See you later - GRAHAM'?",
+        "Bagaimana dengan 'End of Beginning - Djo'?",
+        "Bagaimana dengan 'Scars - Keenan tee'?",
+        "Bagaimana dengan 'Fortnight - Taylor Swift ft Post Malone'?",
+        "Bagaimana dengan 'Ghost - Justin Bieber'?",
+        "Bagaimana dengan 'Cheap Collogne - Graham'?",
+        "Bagaimana dengan 'Shinunoga E-Wa - Fuji Kaze'?",
+        "Bagaimana dengan 'My love Mine All Mine - Mitski'?",
+        "Bagaimana dengan 'Seventeen - JKT48'?"
+      ]
+    },
+    {
+      "tag": "music happy",
+      "patterns": [
+        "Rekomendasi lagu yang bikin seneng",
+        "Rekomendasi lagu buat nambah semangat",
+        "Rekomendasi lagu bikin bahagia",
+        "Kasih aku lagu buat ngerasa bahagia dong",
+        "lagu bahagia",
+        "musik bahagia",
+        "musik untuk mood bahagia",
+        "musik untuk bahagia",
+        "lagu untuk bahagia"
+      ],
+      "responses": [
+        "Ini pasti menyenangkan: 'F M O - JUICEBOX'",
+        "Ini pasti menyenangkan: 'Heavy Rotation - JKT48'",
+        "Ini pasti menyenangkan: 'Who I AM- Alan Walker'",
+        "Bagaimana dengan 'Fallen Sky - JUICEBOX'?",
+        "Bagaimana dengan 'Fortune Cookie - JKT48'?",
+        "Bagaimana dengan 'Not You - Alan Walker'?",
+        "Dengarkan ini: 'Safe & Sound - Different Heaven'", 
+        "Dengarkan ini: 'Finger Crossed - Elijah Woods'", 
+        "Dengarkan ini: 'Off My Face - Justin Bieber'", 
+        "Dengarkan ini: 'Tersimpan di Hati - Eka Gustiwana'", 
+        "Coba deh denger lagu ini pasti bikin kamu semangat: 'Espresso - Sabrina Carpenter'",
+        "Coba deh denger lagu ini pasti bikin kamu semangat: 'Kupu-kupu - Tiara Andini'"
+      ]
+    },
+    {
+      "tag": "music angry",
+      "patterns": [
+        "Rekomendasi lagu yang bikin aku ga makin marah",
+        "Rekomendasi lagu biar aku merasa tenang",
+        "Rekomendasi lagu untuk aku yang sedang marah",
+        "Kasih aku lagu buat menurunkan rasa marah aku dong",
+        "lagu amarah",
+        "musik amarah",
+        "musik untuk meredakan amarah",
+        "musik untuk marah",
+        "lagu untuk marah"
+      ],
+      "responses": [
+        "Coba dengarkan 'Adelaide Sky - Adhitia Sofyan'",
+        "Ini bisa membantu: 'Let Her Go - Passenger'",
+        "Bagaimana dengan 'Pesan dibalik awan - Adhitia Sofyan'?",
+        "Dengarkan ini: 'One Step Closer - Linkin Park'",
+        "Dengarkan ini: 'Another Day(xKore Remix) - Modestep'",
+        "Dengarkan ini: 'Those Eyes - New West'", 
+        "Dengarkan ini: 'Another day - Modestep'",
+        "Dengarkan ini: 'Break Stuff - Limp Bizkit'",
+        "Dengarkan ini: 'Kebun Binatang saat Hujan - JKT48'",
+        "Dengarkan ini: 'River - JKT48'",
+        "Dengarkan ini: 'Pareo adalah Emerald - JKT48'",
+        "Dengarkan ini: 'In the end - Linkin Park'",
+        "Dengarkan ini: 'Crawling - Linkin Park'"
+
+
+      ]
+    },
+    {
+      "tag": "angry location",
+      "patterns": [
+        "Tempat marah",
+        "Lokasi marah",
+        "wisata marah",
+        "tempat marah",
+        "Rekomendasi tempat saat marah"
+      ],
+      "responses": [
+        "Aku ada rekomendasi tempat saat kamu marah:\n1. Taman Kota GBK\n2. Camp Hulu Cai Bogor\nKalau kamu tertarik info lanjut tentang tempat tersebut, sebutin aja nama tempatnya!"
+      ]
+    },
+    {
+      "tag": "angry location 1",
+      "patterns": [
+        "taman kota",
+        "gbk",
+        "taman kota gbk"
+      ],
+      "responses": [
+        "Taman Kota GBK adalah taman kota seluas 7,5 hektar yang terletak di kompleks Gelora Bung Karno, Jakarta Selatan. Taman ini memiliki berbagai fasilitas seperti jogging track, taman bermain anak, lapangan basket, dan amphitheater. Pengunjung dapat melakukan berbagai aktivitas di Taman Kota GBK seperti berolahraga, piknik, bermain bersama anak, atau sekadar bersantai menikmati suasana taman."
+      ]
+    },
+    {
+      "tag": "angry location 2",
+      "patterns": [
+        "camp hulu",
+        "camp hulu cai",
+        "camp hulu cai bogor"
+      ],
+      "responses": [
+        "Camp Hulu Cai Bogor adalah wisata alam yang terletak di Desa Ciburial, Kecamatan Cisarua, Bogor, Jawa Barat. Tempat wisata ini menawarkan berbagai kegiatan outdoor seperti camping, trekking, flying fox, dan paintball. Pengunjung juga dapat menikmati keindahan alam pegunungan dengan udara yang sejuk dan asri."
+      ]
+    },
+    {
+      "tag": "sad location",
+      "patterns": [
+        "Tempat sedih",
+        "Lokasi sedih",
+        "wisata sedih",
+        "tempat sedih",
+        "Rekomendasi tempat saat sedih"
+      ],
+      "responses": [
+        "Aku ada rekomendasi tempat saat kamu sedih:\n1. Damar Langit Bogor\n2. Leuwi Balong Endah\nKalau kamu tertarik info lanjut tentang tempat tersebut, sebutin aja nama tempatnya!"
+      ]
+    },
+    {
+      "tag": "sad location 1",
+      "patterns": [
+        "damar",
+        "damar langit",
+        "damar langit bogor"
+      ],
+      "responses": [
+        "Damar Langit Bogor adalah tempat wisata alam yang terletak di Desa Ciasar, Kecamatan Leuwiliang, Bogor, Jawa Barat. Tempat wisata ini menawarkan berbagai spot foto instagramable dengan pemandangan alam yang indah. Pengunjung juga dapat menikmati berbagai wahana seperti skywalk, ATV, dan flying fox."
+      ]
+    },
+    {
+      "tag": "sad location 2",
+      "patterns": [
+        "leuwi",
+        "balong endah",
+        "leuwi balong endah"
+      ],
+      "responses": [
+        "Leuwi Balong Endah adalah tempat wisata alam yang terletak di Desa Leuwibatu, Kecamatan Cisarua, Bogor, Jawa Barat. Tempat wisata ini terkenal dengan air terjunnya yang jernih dan kolam alami yang dikelilingi oleh tebing batu. Pengunjung dapat melakukan berbagai aktivitas seperti berenang, bermain air, dan trekking."
+      ]
+    },
+    {
+      "tag": "happy location",
+      "patterns": [
+        "Lokasi bahagia",
+        "wisata bahagia",
+        "tempat bahagia",
+        "Rekomendasi tempat senang"
+      ],
+      "responses": [
+        "Aku ada rekomendasi tempat saat kamu senang:\n1. Dufan, Jakarta\n2. SeaWorld, Jakarta\nKalau kamu tertarik info lanjut tentang tempat tersebut, sebutin aja nama tempatnya!"
+      ]
+    },
+    {
+      "tag": "happy location 1",
+      "patterns": [
+        "dufan",
+        "dunia fantasi",
+        "dufan jakarta"
+      ],
+      "responses": [
+        "Dufan (Dunia Fantasi) adalah taman hiburan terbesar di Indonesia yang terletak di Jakarta Utara. Dufan menawarkan berbagai wahana permainan yang seru dan menegangkan, seperti Halilintar, Tornado, dan Kora-Kora. Pengunjung juga dapat menikmati berbagai pertunjukan dan parade yang menarik."
+      ]
+    },
+    {
+      "tag": "happy location 2",
+      "patterns": [
+        "seaworld",
+        "sea world",
+        "seaworld jakarta"
+      ],
+      "responses": [
+        "SeaWorld adalah taman laut yang terletak di Jakarta Utara. SeaWorld menawarkan berbagai pertunjukan hewan laut seperti lumba-lumba, penguin, dan anjing laut. Pengunjung juga dapat melihat berbagai jenis ikan dan biota laut lainnya di akuarium raksasa."
+      ]
+    },
+    {
+      "tag": "default",
+      "patterns": [],
+      "responses": [
+        "Mohon maaf namun Moodie belum bisa menjawab pertanyaan mu. Karena Moodie masih dalam pengembangan dan hanya dilatih untuk dua topik utama yaitu rekomendasi lagu dan lokasi berdasarkan moodmu.\nTerimakasih pengertiannya, kamu bisa bertanya hal yang lain."
+      ]
+    }
+  ]
+}
